@@ -6,11 +6,8 @@ class Square{
         this.d = d;
         
 
-        fill("white");
+        fill("purple");
         noStroke();
         this.body = square(this.a, this.b, this.c, this.d);
-    }
-    removeSquare(){
-        this.body.remove()
     }
 }
